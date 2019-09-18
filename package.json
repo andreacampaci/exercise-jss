@@ -2,9 +2,12 @@
   "name": "jss-example",
   "version": "0.0.0",
   "dependencies": {
-    "jss": "9.4.0",
     "color": "2.0.1",
-    "jss-preset-default": "4.0.1"
+    "jss": "9.4.0",
+    "jss-preset-default": "4.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-jss": "^8.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
