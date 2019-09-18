@@ -47,12 +47,9 @@ const theme = {
 
 
 const App = () => (
-    <div>
-        <input type="text" onInput={}/>
         <ThemeProvider theme={theme}>
             <StyledComp />
         </ThemeProvider>
-    </div>
 );
 
 render(<App />, document.getElementById("root"));
