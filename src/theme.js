@@ -1,6 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
 import injectSheet, { jss, ThemeProvider } from "react-jss";
+import {theme} from "./themes/theme-alpha";
+// import {theme} from "./themes/theme-beta";
 
 console.log(jss.version);
 
@@ -39,11 +41,6 @@ const Comp = ({ classes }) => (
 );
 
 const StyledComp = injectSheet(styles)(Comp);
-
-const theme = {
-    background: "#f7df1e",
-    color: "#24292e"
-};
 
 
 const App = () => (

@@ -23,3 +23,4 @@
 | | | Supporto typescript |
 | | | Performance migliori su SSR e animazioni complesse |
 | | | Possibilità di estensione classi |
+| | | Cross-browser compatibility |
